@@ -27,11 +27,21 @@ function App() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.detail);
+        let message = "Something went wrong.";
+
+        if (typeof data.detail === "string") {
+          message = data.detail;
+        } else if (Array.isArray(data.detail)) {
+          message = data.detail[0].msg;
+        }
+
+        throw new Error(message);
       }
 
       setResult(data);
     } catch (error) {
+      console.log(error);
+      console.log(error.message);
       setError(error.message);
     } finally {
       setLoading(false);
