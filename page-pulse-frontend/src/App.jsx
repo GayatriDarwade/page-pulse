@@ -52,7 +52,14 @@ function App() {
         </div>
       )}
       <footer className="footer">
-      Built with ❤️ using React + FastAPI
+        Built for{" "}
+        <a
+          href="https://digitalheroesco.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Digital Heroes Training Task
+        </a>
       </footer>
     </div>
   );
