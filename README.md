@@ -1,4 +1,4 @@
-# webaudit
+# WebAudit
 
 Page Pulse is a web application that audits any website URL and returns key SEO and accessibility metrics. It consists of a FastAPI backend that analyzes web pages and a React frontend that provides a simple user interface for running audits.
 
