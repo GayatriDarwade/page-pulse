@@ -47,7 +47,7 @@ function App() {
         <ResultCard result={result} />
       ) : (
         <div className="empty-state">
-          <h3>Ready to Audit 🚀</h3>
+          <h3>Ready to Audit </h3>
           <p>Enter a website URL above and click <strong>Audit</strong> to analyze it.</p>
         </div>
       )}
