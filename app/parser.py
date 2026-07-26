@@ -7,7 +7,7 @@ def parse_html(html: str):
     # meta description of the page
     meta_description = soup.find("meta", attrs={"name": "description"})["content"].strip() if soup.find("meta", attrs={"name": "description"}) else None
     # h1
-    h1 = len(soup.find_all("h1")) if soup.find_all("h1") else None
+    h1 = len(soup.find_all("h1")) if soup.find_all("h1") else 0
     # img with no alt attribute
     img = soup.find_all("img")
     img_no_alt = 0
@@ -15,7 +15,7 @@ def parse_html(html: str):
         if  not image.has_attr("alt"):
             img_no_alt += 1
     # word count
-    text = soup.get_text()
+    text = soup.body.get_text() if soup.body else soup.get_text()
     words =text.split()
     word_count = len(words)
 
