@@ -12,7 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://webaudit-five-lake.vercel.app",
+        "https://webaudit-gu0liwabd-gayatri10.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
