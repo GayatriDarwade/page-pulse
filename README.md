@@ -38,9 +38,7 @@ Page Pulse is a web application that audits any website URL and returns key SEO 
 
 | Resource | Link |
 |----------|------|
-| GitHub Repository | https://github.com/GayatriDarwade/webaudit |
 | Live Frontend | https://webaudit-nu.vercel.app |
-| Demo Video | https://www.loom.com/share/31c53c1f55b1402da8d5c1b737d4d9fb |
 
 ---
 
