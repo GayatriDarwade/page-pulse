@@ -16,7 +16,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch("https://webaudit-lr77.onrender.com/audit", {
+      const response = await fetch("https://page-pulse-lr77.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
