@@ -62,14 +62,7 @@ function App() {
         </div>
       )}
       <footer className="footer">
-        Built for{" "}
-        <a
-          href="https://digitalheroesco.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Digital Heroes Training Task
-        </a>
+        Built for Digital Heroes Training Task
       </footer>
     </div>
   );
