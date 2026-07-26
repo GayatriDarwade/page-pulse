@@ -12,6 +12,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
+        "https://page-pulse-five-lake.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
